@@ -14,3 +14,5 @@ Training is done for 100 epochs with a batch size of 16 in the second time and w
 **Inference and Results**
 For inference, the model takes as input test images in the test folder or video frames recorded in Da Nang, Vietnam and outputs the detected sign bounding boxes, class labels and detection confidence scores.
 Achieves strong performance detecting and classifying traffic signs across 58+ classes in real-time.
+<img width="368" alt="image" src="https://github.com/Luantrannew/VietNam_Traffic_sign_recognise/assets/62492632/e1085822-9196-4f44-8a52-13561d32b25f">
+
