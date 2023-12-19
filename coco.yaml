@@ -1,0 +1,77 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO 2017 dataset http://cocodataset.org by Microsoft
+# Example usage: python train.py --data coco.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /content/drive/MyDrive/yolo_detect_newdata  
+train: /content/drive/MyDrive/yolo_detect_newdata/train/images
+val: /content/drive/MyDrive/yolo_detect_newdata/valid/images
+test: /content/drive/MyDrive/yolo_detect_newdata/test/images
+
+# Classes
+names:
+  0: DP.135
+  1: P.102
+  2: P.103a
+  3: P.103b
+  4: P.103c
+  5: P.104
+  6: P.106a
+  7: P.106b
+  8: P.107a
+  9: P.112
+  10: P.115
+  11: P.117
+  12: P.123a
+  13: P.123b
+  14: P.124a
+  15: P.124b
+  16: P.124c
+  17: P.125
+  18: P.127
+  19: P.128
+  20: P.130
+  21: P.131a
+  22: P.137
+  23: P.245a
+  24: R.301c
+  25: R.301d
+  26: R.301e
+  27: R.302a
+  28: R.302b
+  29: R.303
+  30: R.407a
+  31: R.409
+  32: R.425
+  33: R.434
+  34: S.509a
+  35: W.201a
+  36: W.201b
+  37: W.202a
+  38: W.202b
+  39: W.203b
+  40: W.203c
+  41: W.205a
+  42: W.205b
+  43: W.205d
+  44: W.207a
+  45: W.207b
+  46: W.207c
+  47: W.208
+  48: W.209
+  49: W.210
+  50: W.219
+  51: W.221b
+  52: W.224
+  53: W.225
+  54: W.227
+  55: W.233
+  56: W.235
+  57: W.245a
+  58: sign
+  59: R.403
