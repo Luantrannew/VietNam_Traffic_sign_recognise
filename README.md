@@ -1,0 +1,16 @@
+**Traffic Sign Detection with YOLOv5 using Google Colab GPU (T4)**
+This repository implements a traffic sign detection model using the YOLOv5 object detection architecture on Google Colab with a T4 GPU.
+---------------------------------------------------------------
+
+**Overview**
+Traffic sign detection is an important computer vision task for autonomous driving and advanced driver assistance systems. This repository focuses on detecting and classifying traffic signs from images and video frames recorded in Da Nang city, Vietnam.
+The model is built using the state-of-the-art YOLOv5s detection framework, which offers excellent accuracy and speed for real-time applications. The network backbone and model parameters have been customized for optimized traffic sign detection performance.
+
+**Model Architecture and Training**
+The YOLOv5s variant is used as the base model and pre-trained weights.
+The model is trained on the Vietnam Roboflow traffic sign dataset consisting of over 4,200 images across 58 sign classes. We added and labeled one more class R.403.
+Training is done for 100 epochs with a batch size of 16 in the second time and worked just fine
+
+**Inference and Results**
+For inference, the model takes as input test images in the test folder or video frames recorded in Da Nang, Vietnam and outputs the detected sign bounding boxes, class labels and detection confidence scores.
+Achieves strong performance detecting and classifying traffic signs across 58+ classes in real-time.
