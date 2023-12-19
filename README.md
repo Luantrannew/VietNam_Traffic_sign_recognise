@@ -8,7 +8,7 @@ The model is built using the state-of-the-art YOLOv5s detection framework, which
 
 **Model Architecture and Training**
 The YOLOv5s variant is used as the base model and pre-trained weights.
-The model is trained on the Vietnam Roboflow traffic sign dataset consisting of over 4,200 images across 58 sign classes. We added and labeled one more class R.403.
+The model is trained on the Vietnam Roboflow traffic sign dataset consisting of over 4,200 images across 58 sign classes (https://universe.roboflow.com/vietnam-traffic-sign-detection/vietnam-traffic-sign-detection-2i2j8/dataset/6/download) . We added and labeled one more class R.403.
 Training is done for 100 epochs with a batch size of 16 in the second time and worked just fine
 
 **Inference and Results**
